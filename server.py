@@ -10,3 +10,7 @@ print("port du serveur :", PORT)
 
 httpd = server(server_address, handler)
 httpd.serve_forever()
+
+"""
+lien : http://localhost:8888/index.py
+"""
