@@ -26,6 +26,14 @@ class webservice:
         # On enregistre la data obtenue
         self.data = json.loads(resultat.text)
     
+    def getweather2(self, city, states, country):
+        self.url = "https://api.openweathermap.org/data/2.5/weather?q=%s,%s,%s,us&appid=%s" % (city, states, country, API)
+
+        # On demande la recherche
+        resultat = requests.get(self.url)
+        # On enregistre la data obtenue
+        self.data = json.loads(resultat.text)
+    
     def printdata(self):
         # Affiche la data obtenue en brut
         print(self.data)
