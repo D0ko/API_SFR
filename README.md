@@ -1,6 +1,6 @@
 # API SFR - TEST Dev
 
-Ce projet a été réalisé dans le cadre d’un test technique pour intégrer une équipe dau sein de SFR dans le cadre de mon alternance. 
+Ce projet a été réalisé lors d’un test technique pour intégrer une équipe au sein de SFR dans le cadre de mon alternance. 
 L’objectif était d’évaluer mes compétences en développement Python, en intégration d’API tierces, et en gestion de serveur web minimaliste. 
 
 ## Files
